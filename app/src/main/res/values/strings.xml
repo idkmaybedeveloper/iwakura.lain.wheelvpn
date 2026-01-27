@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">WheelVPN</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_configs">Configs</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Titles -->
+    <string name="home_title">WheelVPN - Home</string>
+    <string name="configs_title">Configurations</string>
+    <string name="settings_title">Settings</string>
+    
+    <!-- VPN Status -->
+    <string name="vpn_disconnected">Disconnected</string>
+    <string name="vpn_connected">Connected</string>
+    <string name="vpn_connecting">Connecting...</string>
+    <string name="vpn_running">VPN is running</string>
+    <string name="vpn_session_name">WheelVPN Connection</string>
+
+    <!-- Toasts -->
+    <string name="toast_buffer_empty">Clipboard is empty</string>
+    <string name="toast_imported">Imported: %s</string>
+    <string name="toast_import_error">Import error: %s</string>
+    <string name="toast_config_deleted">Configuration deleted</string>
+    <string name="toast_select_config_first">Select a configuration first</string>
+
+    <!-- UI Elements -->
+    <string name="home_active_config">Active Config</string>
+    <string name="home_no_config_selected">No config selected</string>
+    <string name="configs_no_configs_yet">List is empty</string>
+    <string name="configs_import">Import</string>
+    <string name="configs_import_clipboard">Import from Clipboard</string>
+    <string name="configs_import_qr">Scan QR Code</string>
+    <string name="configs_add_manual">Add Manually</string>
+    <string name="configs_delete">Delete</string>
+    <string name="configs_manual_title">Manual Configuration</string>
+    <string name="configs_manual_name">Name</string>
+    <string name="configs_manual_url">VLESS URL</string>
+    <string name="configs_save">Save</string>
+    <string name="configs_cancel">Cancel</string>
+    <string name="configs_subscriptions">Subscriptions</string>
+    <string name="configs_add_subscription">Add Subscription</string>
+    <string name="configs_sub_name">Subscription Name</string>
+    <string name="configs_sub_url">Subscription URL</string>
+    <string name="configs_update_subs">Update Subscriptions</string>
+    <string name="toast_sub_added">Subscription added</string>
+    <string name="toast_subs_updated">Subscriptions updated</string>
+    <string name="toast_sub_error">Error updating subscription: %s</string>
+    <string name="settings_general">General</string>
+    <string name="settings_app_version">App Version</string>
+    <string name="settings_xray_core">Xray Core</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">VPN Status</string>
+</resources>
