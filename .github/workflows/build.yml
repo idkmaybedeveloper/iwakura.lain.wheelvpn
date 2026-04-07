@@ -26,7 +26,7 @@ jobs:
 
       - name: Set up Android NDK
         run: |
-          sdkmanager "ndk;27.2.12479018"
+          $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager "ndk;27.2.12479018"
           echo "NDK_HOME=$ANDROID_SDK_ROOT/ndk/27.2.12479018" >> $GITHUB_ENV
 
       - name: Install gomobile
