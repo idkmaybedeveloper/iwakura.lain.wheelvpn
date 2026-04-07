@@ -101,8 +101,8 @@ class WheelVpnService : VpnService() {
         serviceScope.launch {
             while (coreController != null) {
                 try {
-                    // Use measureDelay from catray which uses the core's transport
-                    val delay = coreController?.measureDelay("https://204.lain1.dev/generate_204") ?: -1L
+                    // use measureDelay from catray which uses the cores transport
+                    val delay = coreController?.measureDelay("http://maps.google.com/generate_204" /* "https://204.lain1.dev/generate_204" */) ?: -1L
                     Log.d(TAG, "Ping measurement: ${delay}ms")
                     val pingStr = if (delay >= 0) "${delay}ms" else "Error"
                     

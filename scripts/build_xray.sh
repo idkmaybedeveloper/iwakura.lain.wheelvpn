@@ -26,6 +26,7 @@ go mod tidy
 # Build AAR using gomobile with correct flags from v2rayNG
 # We use the full path to gomobile and ensure it sees the NDK
 mkdir -p "$PROJECT_ROOT/app/libs"
+GOEXPERIMENT="fieldtrack,boringcrypto,greenteagc"
 ~/go/bin/gomobile bind \
     -v \
     -target=android/arm64 \
